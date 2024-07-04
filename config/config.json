@@ -1,0 +1,8 @@
+{
+    "prefix": "&",
+    "defaultLanguage": "en",
+    "logChannel": "log",
+    "logLevel": "info",
+    "maxMessageLength": 1500  }
+
+  

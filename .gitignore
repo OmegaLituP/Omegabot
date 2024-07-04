@@ -23,3 +23,39 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Compiled output
+/dist/
+
+# Dependency directories
+/bower_components/
+/jspm_packages/
+
+# Build system files
+Gruntfile.js
+gulpfile.js
+webpack.config.js
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Testing frameworks
+/coverage/
+/.nyc_output/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
