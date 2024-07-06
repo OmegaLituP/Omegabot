@@ -1,5 +1,6 @@
 
 // Load environment variables from .env file
+const Polls = require('discord-polls');
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
