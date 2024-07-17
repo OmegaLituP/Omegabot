@@ -1,9 +1,9 @@
-const { Message } = require('discord.js');
+import { Message } from 'discord.js';
 
 
 module.exports = {
     name: 'messageCreate',
-    execute(message) {
+    execute(message: Message) {
         if (message.author.bot) return; // Ignore messages from bots
         
         console.log(`Received message: ${message.content}`);
