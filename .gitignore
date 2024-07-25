@@ -56,3 +56,10 @@ yarn.lock
 # Miscellaneous
 .DS_Store
 Thumbs.db
+
+# Tests
+test/
+
+*.tsbuildinfo
+generateJwtSecret.js
+
